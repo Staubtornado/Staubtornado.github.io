@@ -8,6 +8,7 @@
       content="Welcome to the Kot. Dies ist die offizielle Kotmasters Website. Erkunden sie unsere angebote."
     />
     <title>Kotmasters V1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="icon.ico" />
     <link rel="stylesheet" href="stylesheet.css">
   </head>
@@ -25,6 +26,7 @@
     </header>
     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, perspiciatis nihil. Quas temporibus quo asperiores nam quisquam ad, tempora eos quis commodi, ipsa blanditiis non voluptas quos error autem libero, ullam nemo similique eum. Rem ducimus vel nam. Error voluptates iste esse at fugiat, animi vel maxime. Minus nobis corporis blanditiis autem voluptates voluptatem quam obcaecati error repudiandae incidunt iusto eum, rerum aliquam aperiam aut consequatur molestiae vero sint neque saepe facere maxime ut qui quaerat! Fugiat, ut? Placeat omnis dolor laboriosam, quia minus dicta aspernatur, ea expedita eum modi commodi fuga nisi quidem architecto. Eveniet sunt sed doloribus porro.</P>
   </body>   
+
   <footer class="footer">
 
     <style>
@@ -35,14 +37,12 @@
         color: #edf0f1;
         text-decoration: none; 
       }
-      header{
+      
+      footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 30px 10%;
-      }
-      .logo {
-        cursor: pointer;
       }
 
       .nav__links{
@@ -60,21 +60,33 @@
       .nav__links li a:hover{
         color: #05ffff;
       }
+
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+      }
+
+      .fa:hover {
+        opacity: 0.4;
+      }
+
     </style>
 
-    <ul class="nav__links" style="float:right"><h4>SERVICE</h4>
+    <ul class="nav__links" style="float:center">
+        <li><a href="https://www.instagram.com/" class="fa fa-instagram"></a></li>
+        <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+        <li><a href="https://github.com/Staubtornado/kotmasters" class="fa fa-github"></a></li>
+        <li><a href="https://twitter.com/" class="fa fa-twitter"></a></li>
+        <li><a href="https://www.reddit.com/" class="fa fa-reddit-alien"></a></li>
+    </ul> 
+
+    <ul class="nav__links">
         <li><a href="">Impressum</a></li>
         <li><a href="">Datenschutzerklärung</a></li>
         <li><a href="">AGB</a></li>
         <li><a href="">FAQ</a></li>
     </ul>  
-
-    <ul class="nav__links" style="float:right"><h4>SOCIAL MEDIA</h4>
-        <li><a href="https://www.instagram.com/">Instagram</a></li>
-        <li><a href="https://www.facebook.com/">Facebook</a></li>
-        <li><a href="https://github.com/Staubtornado/kotmasters">Github</a></li>
-        <li><a href="https://twitter.com/">Twitter</a></li>
-    </ul>    
    
   </footer>
 </html>
