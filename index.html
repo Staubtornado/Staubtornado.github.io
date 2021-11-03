@@ -91,27 +91,52 @@
     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, perspiciatis nihil. Quas temporibus quo asperiores nam quisquam ad, tempora eos quis commodi, ipsa blanditiis non voluptas quos error autem libero, ullam nemo similique eum. Rem ducimus vel nam. Error voluptates iste esse at fugiat, animi vel maxime. Minus nobis corporis blanditiis autem voluptates voluptatem quam obcaecati error repudiandae incidunt iusto eum, rerum aliquam aperiam aut consequatur molestiae vero sint neque saepe facere maxime ut qui quaerat! Fugiat, ut? Placeat omnis dolor laboriosam, quia minus dicta aspernatur, ea expedita eum modi commodi fuga nisi quidem architecto. Eveniet sunt sed doloribus porro.</P>
 
   </body>
-      
-  <style>
-    .footer {
-      background: #776b6b93;
-      height: 200px; 
-    }
-    #list {
-      background-color:#b00b69;
-    }
-  </style>
 
   <footer class="footer">
 
-    <ul id="list" style="float:right"><h4>SERVICE</h4>
+    <style>
+      li, a {
+        font-family: "Monserate", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #edf0f1;
+        text-decoration: none; 
+      }
+      header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+      }
+      .logo {
+        cursor: pointer;
+      }
+
+      .nav__links{
+        list-style: none;
+      }
+
+      .nav__links li{
+        display: inline-block;
+        padding: 0px 20px;
+      }
+
+      .nav__links li a{
+        transition: all 0.3s ease 0s;
+      }
+      .nav__links li a:hover{
+        color: #05ffff;
+      }
+    </style>
+
+    <ul class="nav__links" style="float:right"><h4>SERVICE</h4>
         <li><a href="">Impressum</a></li>
         <li><a href="">Datenschutzerklärung</a></li>
         <li><a href="">AGB</a></li>
         <li><a href="">FAQ</a></li>
     </ul>  
 
-    <ul id="list" style="float:right"><h4>SOCIAL MEDIA</h4>
+    <ul class="nav__links" style="float:right"><h4>SOCIAL MEDIA</h4>
         <li><a href="https://www.instagram.com/">Instagram</a></li>
         <li><a href="https://www.facebook.com/">Facebook</a></li>
         <li><a href="https://github.com/Staubtornado/kotmasters">Github</a></li>
