@@ -54,3 +54,22 @@ button {
 p {
     color:white;
   }
+
+/* Social Media Icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+}
+
+.fa:hover {
+  opacity: 0.4;
+}
+
+/* Footer */
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
