@@ -10,21 +10,6 @@
     />
     <title>Kotmasters V1</title>
     <link rel="shortcut icon" href="icon.ico" />
-
-
-    <style>
-      body {
-        background-color: white;
-      }
-      .Logo {
-        float: left;
-      }
-      p {
-        color: #b00b69;
-      }
-    </style>
-
-
   </head>
   <body>
 
@@ -36,7 +21,7 @@
           box-sizing: border-box;
           margin: 0;
           padding: 0;
-          background-color: #b00b69;
+          background-color: #24252A;
         }
         li, a, button {
           font-family: "Monserate", sans-serif;
@@ -51,10 +36,42 @@
           align-items: center;
           padding: 30px 10%;
         }
-        
+        .logo {
+          cursor: pointer;
+        }
+
+        .nav__links{
+          list-style: none;
+        }
+
+        .nav__links li{
+          display: inline-block;
+          padding: 0px 20px;
+        }
+
+        .nav__links li a{
+          transition: all 0.3s ease 0s;
+        }
+        .nav__links li a:hover{
+          color: #05ffff;
+        }
+
+        button {
+          padding: 9px 25px;
+          background-color: rgba(5, 255, 255, 1);
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: all 0.3s ease 0s;
+        }
+
+        button {
+          background-color: rgba(0, 136, 169, 0.8);
+        }
+
       </style>
 
-      <img class="logo"  src="Logo.png" alt="Logo">
+      <img class="logo"  src="logo.png" alt="logo">
       <nav>
         <ul class="nav__links">
           <li><a href="#">Services</a></li>
@@ -67,7 +84,7 @@
 
   </body>
       
-  <!style>
+  <style>
     .footer {
       background: #776b6b93;
       height: 200px; 
@@ -75,18 +92,18 @@
     #list {
       background-color:#b00b69;
     }
-  <!/style>
+  </style>
 
   <footer class="footer">
 
-    <ul style="float:right"><h4>SERVICE</h4>
+    <ul id="list" style="float:right"><h4>SERVICE</h4>
         <li><a href="">Impressum</a></li>
         <li><a href="">Datenschutzerklärung</a></li>
         <li><a href="">AGB</a></li>
         <li><a href="">FAQ</a></li>
     </ul>  
 
-    <ul style="float:right"><h4>SOCIAL MEDIA</h4>
+    <ul id="list" style="float:right"><h4>SOCIAL MEDIA</h4>
         <li><a href="https://www.instagram.com/">Instagram</a></li>
         <li><a href="https://www.facebook.com/">Facebook</a></li>
         <li><a href="https://github.com/Staubtornado/kotmasters">Github</a></li>
