@@ -64,6 +64,14 @@ p {
   }
 
 
+  /*banner.img*/
+.banner{
+  width: 1000px;
+  height: 250px;
+  object-fit: none;
+}
+
+
 /* Social Media Icons */
 .fa {
   padding: 20px;
