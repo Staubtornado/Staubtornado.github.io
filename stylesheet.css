@@ -100,24 +100,24 @@ h1 {
   color:white;
 }
 
-/* banner.img */
-.banner{
-  width: 1000px;
-  height: 250px;
-  object-fit: none;
+h2 {
+  color:white;
 }
-
 
 /* Social Media Icons */
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 30px;
+  width: 60px;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-/* .fa:hover {
-  opacity: 0.4;
-} */
+.fa li a:hover{
+  color: #05ffff;
+}
 
 .short_summary {
   align-items: center;
@@ -156,4 +156,12 @@ footer{
   align-items: center;
   padding: 30px 10%;
 
+}
+
+/* About_page*/
+.about_h1 {
+  margin: 20px;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-left: 100px;
 }
