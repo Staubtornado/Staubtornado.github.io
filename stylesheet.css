@@ -26,6 +26,12 @@ header{
 }
 .logo {
   cursor: pointer;
+  width: 65px;
+  height: 40px;
+}
+
+.logo__font {
+  font-size: 40px;
 }
 
 .nav__links{
@@ -58,13 +64,16 @@ button {
 }
 
 
-/*Schriftfarbe*/
+/* Schriftfarbe */
 p {
     color:white;
   }
 
+h1 {
+  color:white;
+}
 
-  /*banner.img*/
+/* banner.img */
 .banner{
   width: 1000px;
   height: 250px;
