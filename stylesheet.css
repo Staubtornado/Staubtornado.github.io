@@ -12,7 +12,7 @@
 
 /* Header*/
 li, a, button {
-  font-family: "Monserate", sans-serif;
+  font-family: 'Signika Negative';
   font-weight: 500;
   font-size: 16px;
   color: #edf0f1;
@@ -67,7 +67,32 @@ button {
 /* Schriftfarbe */
 p {
     color:white;
+    font-family: 'Signika Negative';
   }
+
+.infotext {
+  color:white;
+  font-family: 'Signika Negative';
+  text-align: center;
+  padding-left: 500px;
+  padding-right: 500px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: larger;
+}  
+.infotext a {
+  color:white;
+  font-family: 'Signika Negative';
+  font-size: 19.2px;
+}
+
+.infotext__unterschrift {
+  color:white;
+  font-family: 'Signika Negative';
+  font-size: 19.2px;
+  text-align: center;
+  padding-bottom: 40px;
+}
 
 h1 {
   color:white;
@@ -128,4 +153,5 @@ footer{
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
+
 }
