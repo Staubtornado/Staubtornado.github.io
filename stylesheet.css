@@ -158,6 +158,42 @@ footer{
 
 }
 
+/* Legal */
+.legal {
+  text-align: center;
+  color: white;
+  font-family: 'Signika Negative';
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.legal ul {
+  list-style: none;
+}
+
+.legal p {
+  padding-bottom: 10px;
+}
+
+.legal h2 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.legal li {
+  padding-bottom: 10px;
+}
+
+.legal h3 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.legal h1 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
 /* About_page*/
 .about_h1 {
   margin: 20px;
