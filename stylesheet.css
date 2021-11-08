@@ -23,11 +23,14 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
+  
 }
 .logo {
   cursor: pointer;
   width: 65px;
   height: 40px;
+  
+
 }
 
 .logo__font {
@@ -50,6 +53,9 @@ header{
 }
 .nav__links li a:hover{
   color: #05ffff;
+  
+  border-radius: 5px;
+  box-shadow: -3px -3px 7px rgba(5, 255, 255, 1), 3px 3px 5px rgba(121, 94, 94, 0.288)
 }
 
 button {
@@ -105,7 +111,10 @@ h2 {
 }
 
 /* Social Media Icons */
+
+
 .fa {
+ 
   padding: 20px;
   font-size: 30px;
   width: 60px;
@@ -114,9 +123,19 @@ h2 {
   display: flex;
   justify-content: space-evenly;
 }
+.fa li a{
+  transition: all 0.5s ease 0s;
 
+}
 .fa li a:hover{
   color: #05ffff;
+  height: 50px;
+ 
+  width: 50px;
+  
+  border-radius: 5px;
+  box-shadow: -3px -3px 7px rgba(5, 255, 255, 1), 3px 3px 5px rgba(94, 104, 121, 0.288)
+
 }
 
 .short_summary {
@@ -127,6 +146,7 @@ h2 {
 }
 
 .short_summary__font {
+  transition: all 0.5s ease 0s;
   font-size: 20px;
 }
 
