@@ -130,9 +130,7 @@ h2 {
 .fa li a:hover{
   color: #05ffff;
   height: 50px;
- 
   width: 50px;
-  
   border-radius: 5px;
   box-shadow: -3px -3px 7px rgba(5, 255, 255, 1), 3px 3px 5px rgba(94, 104, 121, 0.288)
 
