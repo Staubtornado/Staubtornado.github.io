@@ -1,6 +1,6 @@
 document.write(`
 
-<a class="logo__font" href="https://staubtornado.github.io/kotmasters/"><img class="logo" src="https://staubtornado.github.io/kotmasters/Logo.png" alt="logo">Kotmasters</a>
+<a class="logo__font" href="https://staubtornado.github.io/kotmasters/"><img class="logo" src="https://staubtornado.github.io/kotmasters/images/logo.png" alt="logo">Kotmasters</a>
     <nav>
       <ul class="nav__links">
         <li><a href="">Services</a></li>
