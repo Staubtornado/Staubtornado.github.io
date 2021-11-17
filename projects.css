@@ -1,0 +1,16 @@
+.projects {
+    padding: 10%;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+/* .projects li img {
+    vertical-align: text-top;
+} */
+
+.projects li a {
+    vertical-align: top;
+}
