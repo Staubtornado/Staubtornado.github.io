@@ -7,6 +7,6 @@ document.write(`
         <li><a href="https://staubtornado.github.io/kotmasters/content/pages/about.html">About</a></li>
         <li><a href="">Projects</a></li>
     </nav>
-    <a class="cta" href=""><button>Contact</button></a>
+    <a class="cta" href="https://github.com/Staubtornado/kotmasters/discussions/new"><button>Contact</button></a>
 
 `);
