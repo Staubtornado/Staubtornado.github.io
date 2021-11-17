@@ -44,53 +44,126 @@
      </div>
 
     <h1 class="about_h">Ein Blick hinter die Kulissen</h1>
-    <!-- image slider -->
-    <div class="slider" >
-        <div class="sliders">
+    <div class="slider_body">
+        <!-- image slider -->
+        <div class="slider" >
+            <div class="sliders">
 
-            <!-- buttons -->
-            <input type="radio" name="radio-btn" id="btn1">
-            <input type="radio" name="radio-btn" id="btn2">
-            <input type="radio" name="radio-btn" id="btn3">
-            <input type="radio" name="radio-btn" id="btn4">
-            <!-- buttons end-->
+                <!-- buttons -->
+                <input type="radio" name="radio-btn" id="btn1">
+                <input type="radio" name="radio-btn" id="btn2">
+                <input type="radio" name="radio-btn" id="btn3">
+                <input type="radio" name="radio-btn" id="btn4">
+                <!-- buttons end-->
 
-            <!-- slider imgs-->
-            <div class="slide-first">
-                <img src="#" alt="pic1">
-            </div>
-            <div class="slide">
-                <img src="#" alt="pic2">
-            </div>
-            <div class="slide">
-                <img src="#" alt="pic3">
-            </div>
-            <div class="slide">
-                <img src="#" alt="pic4">
-            </div>
-            <!-- slider imgs end-->
+                <!-- slider imgs-->
+                <div class="slide-first">
+                    <img src="/test.jpg" alt="pic1">
+                </div>
+                <div class="slide">
+                    <img src="/test2.jpg" alt="pic2">
+                </div>
+                <div class="slide">
+                    <img src="/test.jpg" alt="pic3">
+                </div>
+                <div class="slide">
+                    <img src="/test2.jpg" alt="pic4">
+                </div>
+                <!-- slider imgs end-->
 
-            <!-- autorun -->
-            <div class="nav-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
+                <!-- autorun -->
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!-- autorun end -->
+        
             </div>
-            <!-- autorun end -->
-    
+            <!-- manuel run  -->
+            <div class="manuel_nav">
+                <label for="btn1" class="manuel-btn"></label>
+                <label for="btn2" class="manuel-btn"></label>
+                <label for="btn3" class="manuel-btn"></label>
+                <label for="btn4" class="manuel-btn"></label>
+            </div>
+            <!-- manuel run end -->
         </div>
-        <!-- manuel run  -->
-        <div class="manuel_nav">
-            <label for="btn1" class="manuel-btn"></label>
-            <label for="btn2" class="manuel-btn"></label>
-            <label for="btn3" class="manuel-btn"></label>
-            <label for="btn4" class="manuel-btn"></label>
-        </div>
-        <!-- manuel run end -->
-
-    </div>
     <!-- image slider end-->
+    </div>
+    <!-- css sliders -->
+    <style>
+    .slider_body{
+        margin: 0px;
+        padding: 0px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider {
+        width: 800px;
+        height: 500px;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+    .slides{
+        width: 500%;
+        height: 500px;
+        display: flex;
+    }
+    .slides input{
+        display: none;
+    }
+    .slide{
+        width: 20%;
+        transition: 2s;
+    }
+    .slide img {
+        width: 800px;
+        height: 500px;
+    }
+
+    /* 'manuelle slides' */
+    .manuel_nav{
+        position: absolute;
+        width: 800px;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .manuel-btn{
+        border: 2px solid #05ffff;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .manuel-btn :not(:last-child){
+        margin-right: 40px;
+    }
+    .manuel-btn :hover{
+        background: #05ffff;
+    }
+
+    #btn1:checked ~ .first{
+        margin-left: 0;
+    }
+    #btn1:checked ~ .first{
+        margin-left: 20%;
+    }
+    #btn1:checked ~ .first{
+        margin-left: 40%;
+    }
+    #btn1:checked ~ .first{
+        margin-left: 60%;
+    }
+
+    </style>
+    <!-- css sliders end-->
+
 
     <h1 class="about_h">Unser Büro</h1>
 
