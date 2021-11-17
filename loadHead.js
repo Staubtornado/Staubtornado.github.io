@@ -7,5 +7,6 @@ document.write(`
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="shortcut icon" href="https://staubtornado.github.io/kotmasters/images/icon.ico" />
 <link rel="stylesheet" href="https://staubtornado.github.io/kotmasters/stylesheet.css">
+<link rel="stylesheet" href="https://staubtornado.github.io/kotmasters/contactButton.css">
 
 `);
