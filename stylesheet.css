@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
 
-
 /*Site_Settings*/
 *{
   box-sizing: border-box;
@@ -8,7 +7,6 @@
   padding: 0;
   background-color: #24252A;
 }
-
 
 /* Header*/
 li, a, button {
@@ -29,8 +27,6 @@ header{
   cursor: pointer;
   width: 65px;
   height: 40px;
-  
-
 }
 
 .logo__font {
@@ -38,9 +34,9 @@ header{
   border-radius: 5px;
   box-shadow:-3px -3px 7px rgba(5, 255, 255, 1), 3px 3px 5px rgb(255, 255, 255);
   font-size: 40px;
-  padding-left: 10px;
-  
+  padding-left: 10px;  
 }
+
 .nav__links{
   list-style: none;
 }
@@ -60,9 +56,6 @@ header{
   border-radius: 5px;
   box-shadow: -3px -3px 7px rgba(5, 255, 255, 1), 3px 3px 5px rgba(121, 94, 94, 0.288)
 }
-
-
-
 
 /* Schriftfarbe */
 p {
@@ -109,8 +102,6 @@ h2 {
 }
 
 /* Social Media Icons */
-
-
 .fa {
   
   padding: 5px;
@@ -125,16 +116,12 @@ h2 {
 }
 .fa li a{
   transition: all 0s ease 0,1s;
-
-
-
 }
 .fa li a:hover{
   color: #05ffff;
   
   border-radius: 5px;
   box-shadow: -3px -3px 7px rgba(5, 255, 255, 1), 3px 3px 5px rgba(94, 104, 121, 0.288)
-
 }
 
 .short_summary {
@@ -211,58 +198,4 @@ footer{
 .legal h1 {
   padding-top: 30px;
   padding-bottom: 20px;
-}
-
-/* About_page*/
-.about_h1 {
-  margin: 20px;
-  font-size: 40px;
-  padding-top: 20px;
-  padding-left: 100px;
-}
-.about_h{
-  color:white;
-  font-family: 'Signika Negative';
-  text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 60px;
-  padding-bottom: 20px;
-  font-size: xx-large;
-}
-
-.about_p{
-  color:white;
-  font-family: 'Signika Negative';
-  text-align: center; 
-  padding-left: 10%;
-  padding-right: 10%; 
-  padding-top: 20px;
-  padding-bottom: 10px;
-  font-size: medium;
-}
-
-.img_about{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  padding-bottom: 25px;
-  padding-top: 35px;
-}
-
-.container {
-position: relative;
-  max-width: 40%;
-  margin: 0 auto;
-}
-
-.container .content {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 15px;
 }

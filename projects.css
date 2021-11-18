@@ -3,8 +3,7 @@
     align-items: center;
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly; 
 }
 
 /* .projects li img {

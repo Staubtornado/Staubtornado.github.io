@@ -1,178 +1,134 @@
 <html lang="en">
-<head>
+  <head>
     <head>
-        <script src="https://staubtornado.github.io/kotmasters/loadHead.js"></script>
-
-        <meta
-          name="description"
-          content="Welcome to ABOUT the KOT. Dies ist die offizielle Kotmasters Aboutpage. Erkunden sie unser Team und Location."
-        />
-
+      <script src="https://staubtornado.github.io/kotmasters/loadHead.js"></script>
+      <link rel="stylesheet" href="about.html">
+      <meta
+        name="description"
+        content="Welcome to ABOUT the KOT. Dies ist die offizielle Kotmasters Aboutpage. Erkunden sie unser Team und Location."
+      />
     </head>
-</head>
+  </head>
 
-<header>
-    <script src="https://staubtornado.github.io/kotmasters/loadHeader.js"></script> 
-</header>
+  <header>
+    <script src="https://staubtornado.github.io/kotmasters/loadHeader.js"></script>
+  </header>
 
-<body>
+  <body>
     <h1 class="about_h">Unsere Ziele</h1>
 
     <h1 class="about_h">Das ist unsere Führungsebene</h1>
 
     <div class="container">
-        <img class="img_about" src="platzhalter.jpg" alt="dahin kommen noch imgs">
-            <div class="content">
-                <p class="about_p"><em>"Lead Bot-Programmer"</em> und<em> "King of if - else"</em> : Julian aka. "Staubtornado"</p>
-         </div>
-     </div>
-    
-    
-    <div class="container">
-        <img class="img_about" src="platzhalter.jpg" alt="dahin kommen noch imgs">
-            <div class="content">
-                <p class="about_p"><em>Master of Design</em>: Max aka. "Discera"</p>
-         </div>
-     </div>
-    
+      <img
+        class="img_about"
+        src="platzhalter.jpg"
+        alt="dahin kommen noch imgs"
+      />
+      <div class="content">
+        <p class="about_p">
+          <em>"Lead Bot-Programmer"</em> und<em> "King of if - else"</em> :
+          Julian aka. "Staubtornado"
+        </p>
+      </div>
+    </div>
 
-     <div class="container">
-        <img class="img_about" src="platzhalter.jpg" alt="dahin kommen noch imgs">
-            <div class="content">
-                <p class="about_p">und <em>Lead Frontend-Developer</em>: Jannis aka. "Daywalker"</p>
-         </div>
-     </div>
+    <div class="container">
+      <img
+        class="img_about"
+        src="platzhalter.jpg"
+        alt="dahin kommen noch imgs"
+      />
+      <div class="content">
+        <p class="about_p"><em>Master of Design</em>: Max aka. "Discera"</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <img
+        class="img_about"
+        src="platzhalter.jpg"
+        alt="dahin kommen noch imgs"
+      />
+      <div class="content">
+        <p class="about_p">
+          und <em>Lead Frontend-Developer</em>: Jannis aka. "Daywalker"
+        </p>
+      </div>
+    </div>
 
     <h1 class="about_h">Ein Blick hinter die Kulissen</h1>
+
+    <!--image slider start-->
+    <link rel="stylesheet" href="/sliders.css" />
     <div class="slider_body">
-        <!-- image slider -->
-        <div class="slider" >
-            <div class="sliders">
+      <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <input type="radio" name="radio-btn" id="radio4" />
+          <!--radio buttons end-->
 
-                <!-- buttons -->
-                <input type="radio" name="radio-btn" id="btn1">
-                <input type="radio" name="radio-btn" id="btn2">
-                <input type="radio" name="radio-btn" id="btn3">
-                <input type="radio" name="radio-btn" id="btn4">
-                <!-- buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="/images/imgage slider/1.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/images/imgage slider/2.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/images/imgage slider/3.jpg" alt="" />
+          </div>
+          <div class="slide">
+            <img src="/images/imgage slider/4.jpg" alt="" />
+          </div>
+          <!--slide images end-->
 
-                <!-- slider imgs-->
-                <div class="slide-first">
-                    <img src="/test.jpg" alt="pic1">
-                </div>
-                <div class="slide">
-                    <img src="/test2.jpg" alt="pic2">
-                </div>
-                <div class="slide">
-                    <img src="/test.jpg" alt="pic3">
-                </div>
-                <div class="slide">
-                    <img src="/test2.jpg" alt="pic4">
-                </div>
-                <!-- slider imgs end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
 
-                <!-- autorun -->
-                <div class="nav-auto">
-                    <div class="auto-btn1"></div>
-                    <div class="auto-btn2"></div>
-                    <div class="auto-btn3"></div>
-                    <div class="auto-btn4"></div>
-                </div>
-                <!-- autorun end -->
-        
-            </div>
-            <!-- manuel run  -->
-            <div class="manuel_nav">
-                <label for="btn1" class="manuel-btn"></label>
-                <label for="btn2" class="manuel-btn"></label>
-                <label for="btn3" class="manuel-btn"></label>
-                <label for="btn4" class="manuel-btn"></label>
-            </div>
-            <!-- manuel run end -->
+          <!--manual navigation start-->
         </div>
-    <!-- image slider end-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+      </div>
     </div>
-    <!-- css sliders -->
-    <style>
-    .slider_body{
-        margin: 0px;
-        padding: 0px;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .slider {
-        width: 800px;
-        height: 500px;
-        border-radius: 15px;
-        overflow: hidden;
-    }
-    .slides{
-        width: 500%;
-        height: 500px;
-        display: flex;
-    }
-    .slides input{
-        display: none;
-    }
-    .slide{
-        width: 20%;
-        transition: 2s;
-    }
-    .slide img {
-        width: 800px;
-        height: 500px;
-    }
-
-    /* 'manuelle slides' */
-    .manuel_nav{
-        position: absolute;
-        width: 800px;
-        margin-top: -40px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .manuel-btn{
-        border: 2px solid #05ffff;
-        padding: 5px;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: 1s;
-    }
-    .manuel-btn :not(:last-child){
-        margin-right: 40px;
-    }
-    .manuel-btn :hover{
-        background: #05ffff;
-    }
-
-    #btn1:checked ~ .first{
-        margin-left: 0;
-    }
-    #btn1:checked ~ .first{
-        margin-left: 20%;
-    }
-    #btn1:checked ~ .first{
-        margin-left: 40%;
-    }
-    #btn1:checked ~ .first{
-        margin-left: 60%;
-    }
-
-    </style>
-    <!-- css sliders end-->
-
+    <!--manual navigation end-->  
+    
+    <!-- script for autoplay -->
+    <script type="text/javascript">
+      var counter = 1;
+      setInterval(function () {
+        document.getElementById("radio" + counter).checked = true;
+        counter++;
+        if (counter > 4) {
+          counter = 1;
+        }
+      }, 5000);
+    </script>
+    <!-- script for autoplay end-->
+    <!--image slider end-->
 
     <h1 class="about_h">Unser Büro</h1>
 
-    <h1 class="about_h">Unser Tochterunternehmen <em> "Kotmasters-Gaming"</em></h1>
+    <h1 class="about_h">
+      Unser Tochterunternehmen <em> "Kotmasters-Gaming"</em>
+    </h1>
+  </body>
 
-</body>
-
-<footer class="footer">
-    <script src="https://staubtornado.github.io/kotmasters/loadFooter.js"></script> 
-</footer>
-
+  <footer class="footer">
+    <script src="https://staubtornado.github.io/kotmasters/loadFooter.js"></script>
+  </footer>
 </html>
