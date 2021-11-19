@@ -38,7 +38,7 @@ header{
 }
 .logo__font:hover {
     opacity: 100;
-  transition: 500ms;
+  transition: all 0.3s ease 0s;
   box-shadow:-3px -3px 7px rgba(5, 255, 255, 1), 3px 3px 5px rgb(255, 255, 255);
 }
 
