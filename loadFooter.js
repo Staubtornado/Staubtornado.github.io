@@ -1,7 +1,7 @@
 document.write(`
 
 <ul class="fa">
-    <li><a href="https://www.instagram.com/" class="fa fa-instagram"></a></li>
+    <li><a href="https://www.instagram.com/kotmasters.official/" class="fa fa-instagram"></a></li>
     <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
     <li><a href="https://github.com/Staubtornado/kotmasters" class="fa fa-github"></a></li>
     <li><a href="https://twitter.com/" class="fa fa-twitter"></a></li>
