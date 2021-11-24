@@ -121,13 +121,13 @@ h2 {
   justify-content: space-evenly;
 }
 .fa li a{
-  transition: all 0s ease 0,1s;
+ transition: all 0.3s ease 0s;
 }
 .fa li a:hover{
   color: #05ffff;
   
   border-radius: 5px;
-  box-shadow: -3px -3px 7px rgba(5, 255, 255, 1), 3px 3px 5px rgba(94, 104, 121, 0.288)
+ box-shadow: -3px -3px 7px rgba(5, 255, 255, 1), 3px 3px 5px rgb(0, 0, 0)
 }
 
 .short_summary {
