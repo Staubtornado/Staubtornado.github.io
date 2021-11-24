@@ -40,7 +40,7 @@ header{
 .logo__font:hover {
     opacity: 100;
   transition: all 0.3s ease 0s;
-  box-shadow:-3px -3px 7px rgba(5, 255, 255, 1), 3px 3px 5px rgb(255, 255, 255);
+ box-shadow: -3px -3px 7px rgba(5, 255, 255, 1), 3px 3px 5px rgb(0, 0, 0)
 }
 
 .nav__links{
@@ -60,7 +60,7 @@ header{
   color: #05ffff;
   
   border-radius: 5px;
-  box-shadow: -3px -3px 7px rgba(5, 255, 255, 1), 3px 3px 5px rgba(121, 94, 94, 0.288)
+  box-shadow: -3px -3px 7px rgba(5, 255, 255, 1), 3px 3px 5px rgb(0, 0, 0)
 }
 
 /* Schriftfarbe */
