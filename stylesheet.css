@@ -142,8 +142,10 @@ h2 {
   font-size: 20px;
 }
 
-.short_summary img {
-  vertical-align: text-top;
+.short_summary li img {
+  float: left;
+  margin-right: 10px;
+  clear:both;
 }
 
 .short_summary li{
@@ -153,11 +155,12 @@ h2 {
 }
 
 .short_summary li a{
-  transition: all 0.3s ease 0s;
-  padding: 70px 0;
-  padding-top: 20px;
-  padding-bottom: 100px;
-  padding-left: 20px;
+  margin-left: 0px;
+  overflow:auto;
+  display:block;
+}
+
+.short_summary li a br {
   vertical-align: middle;
 }
 
