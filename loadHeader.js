@@ -5,7 +5,7 @@ document.write(`
       <ul class="nav__links">
         <li><a href="">Services</a></li>
         <li><a href="https://staubtornado.github.io/kotmasters/content/pages/about.html">About</a></li>
-        <li><a href="">Projects</a></li>
+        <li><a href="https://www.youtube.com/watch?v=cvh0nX08nRw">Projects</a></li>
     </nav>
     <a class="cta" href="https://github.com/Staubtornado/kotmasters/discussions"><button>Contact</button></a>
 
