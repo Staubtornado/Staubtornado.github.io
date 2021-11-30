@@ -106,10 +106,10 @@
           <!--manual navigation start-->
         </div>
         <div class="navigation-manual">
-          <label for="radio1" class="manual-btn"></label>
-          <label for="radio2" class="manual-btn"></label>
-          <label for="radio3" class="manual-btn"></label>
-          <label for="radio4" class="manual-btn"></label>
+          <label for="radio1" class="manual-btn" onclick="setcounter(1)"></label>
+          <label for="radio2" class="manual-btn" onclick="setcounter(2)"></label>
+          <label for="radio3" class="manual-btn" onclick="setcounter(3)"></label>
+          <label for="radio4" class="manual-btn" onclick="setcounter(4)"></label>
         </div>
       </div>
     </div>
@@ -118,6 +118,9 @@
     <!-- script for autoplay -->
     <script type="text/javascript">
       var counter = 1;
+      function setcounter(x){
+        counter = x;
+      }
       setInterval(function () {
         document.getElementById("radio" + counter).checked = true;
         counter++;
