@@ -1,0 +1,60 @@
+.about_h1 {
+  margin: 20px;
+  font-size: 40px;
+  padding-top: 20px;
+  padding-left: 100px;
+}
+
+.vorstellung{
+  color: white;
+  font-family: "Signika Negative";
+  text-align: center;
+  font-size: 19.2px;
+}
+
+.about_h {
+  color: white;
+  font-family: "Signika Negative";
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  font-size: xx-large;
+}
+
+.about_p {
+  color: white;
+  font-family: "Signika Negative";
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: medium;
+}
+
+.img_about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-bottom: 25px;
+  padding-top: 35px;
+}
+
+.container {
+  position: relative;
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 15px;
+}
