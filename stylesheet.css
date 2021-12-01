@@ -63,6 +63,26 @@ header{
   box-shadow: -3px -3px 6px rgba(5, 255, 255, 1), 3px 3px 6px rgb(0, 0, 0)
 }
 
+.bottom_links{
+  list-style: none;
+}
+
+.bottom_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.bottom_links li a{
+  transition: all 0.3s ease 0s;
+  font-size: 19.2px;
+}
+.bottom_links li a:hover{
+  color: #05ffff;
+  
+  border-radius: 5px;
+  box-shadow: -3px -3px 6px rgba(5, 255, 255, 1), 3px 3px 6px rgb(0, 0, 0)
+}
+
 /* Schriftfarbe */
 p {
     color:white;

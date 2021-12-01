@@ -8,7 +8,7 @@ document.write(`
     <li><a href="https://www.reddit.com/" class="fa fa-reddit-alien"></a></li>
 </ul>  
 
-  <ul class="nav__links">
+  <ul class="bottom_links">
       <li><a href="https://staubtornado.github.io/kotmasters/content/legal/imprint.html">Impressum</a></li>
       <li><a href="https://staubtornado.github.io/kotmasters/content/legal/datenschutzerklaerung.html">Datenschutzerklärung</a></li>
       <li><a href="">AGB</a></li> <!-- Depreciated -->
