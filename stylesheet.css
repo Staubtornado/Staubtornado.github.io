@@ -221,10 +221,12 @@ footer{
   padding-top: 30px;
   padding-bottom: 20px;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px){
+  
   .infotext {
     width: 100%;
     text-align: center;
+    transform: translate(0px, 80px);
   }
   .infotext__unterschrift {
     width: 100%;
@@ -279,14 +281,45 @@ footer{
     margin-right: 10px;
   }
   .fa {
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 10%;
 
-    transform: translate(-18px, 38px);
+    transform: translate(60px, -20px);
   }
   .nav__links {
+    flex-direction:row-reverse;
     font-size: 30px;
-    transform: translate(60px, 180px);
+    transform: translate(-220px, 180px);
     height: 70px;
+    
+
   }
+}
+.bottom_links{
+  
+  flex-direction: column;
+  text-align: center;
+  list-style: none;
+  font-size: 30px;
+    transform: translate(-30px, 0px);
+    height: 70px;
+}
+
+.bottom_links li{
+  margin-bottom: 30px;
+  display: inline-block;
+  padding: 0px 20px;
+ 
+}
+
+.bottom_links li a{
+  transition: all 0.3s ease 0s;
+  font-size: 19.2px;
+  
+}
+.bottom_links li a:hover{
+  color: #05ffff;
+  
+  border-radius: 5px;
+  box-shadow: -3px -3px 6px rgba(5, 255, 255, 1), 3px 3px 6px rgb(0, 0, 0)
 }
