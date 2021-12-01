@@ -157,10 +157,6 @@ h2 {
   justify-content: space-evenly;
 }
 
-.short_summary__font {
-  transition: all 0.5s ease 0s;
-  font-size: 20px;
-}
 
 .short_summary li img {
   float: left;
@@ -174,14 +170,11 @@ h2 {
   padding: 50px;
 }
 
-.short_summary li a{
+.short_summary li div{
+  font-size: 19.2px;
   margin-left: 0px;
   overflow:auto;
   display:block;
-}
-
-.short_summary li a br {
-  vertical-align: middle;
 }
 
 /* Footer */
