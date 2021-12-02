@@ -5,8 +5,9 @@
     justify-content: space-evenly;
   }
   
-  
   .short_summary li img {
+    background-color: transparent;
+    width: 250px;
     float: left;
     margin-right: 10px;
     clear:both;
@@ -15,10 +16,16 @@
   .short_summary li{
     display: inline-block;
     align-items: center;
-    padding: 50px;
+    margin: 5%;
+  }
+
+  .short_summary li:hover {
+    display: inline-block;
+    background-color: #2e32389f
   }
   
   .short_summary li div{
+    background-color: transparent;
     margin-left: 5%;
     margin-bottom: 10px;
     overflow:auto;
@@ -26,6 +33,7 @@
   }
   
   .short_summary li div div{
+    background-color: transparent;
     font-size: small;
     margin-bottom: 10px;
     overflow:auto;
@@ -33,13 +41,23 @@
   }
   
   .short_summary li div h6{
+    background-color: transparent;
     font-size: medium;
     margin-left: 4%;
     overflow:auto;
     display:block;
   }
+
+  .short_summary li div h3{
+    background-color: transparent;
+  }
+
+  .short_summary li div a{
+    background-color: transparent;
+  }
   
   .short_summary li div p{
+    background-color: transparent;
     margin-top: 2%;
     font-size: 19.2px;
     margin-bottom: 10px;
