@@ -128,3 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 test.html
+.idea/.gitignore
+.idea/discord.xml
+.idea/kotmasters.iml
+.idea/modules.xml
+.idea/vcs.xml
