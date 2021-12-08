@@ -1,23 +1,27 @@
-$primery-color:#05ffff;
+$primery-color: #b00b69;
+$background-color: #424242;
 $font-color: white;
+$check-green: #19e356;
 
 .button {
-  position: relative;
+  position: center;
+  margin-left: 45%;
+  margin-right: 45%;
   display: block;
   width: 200px;
   height: 36px;
   border-radius: 18px;
-  background-color: #1c89ff;
+  background-color: $primery-color;
   border: solid 1px transparent;
-  color: #fff;
   font-size: 18px;
   font-weight: 300;
   cursor: pointer;
   transition: all 0.1s ease-in-out;
   &:hover {
-    background-color: transparent;
-    border-color: #fff;
-    transition: all 0.1s ease-in-out;
+    transition: all 0.3s ease 0s;
+    box-shadow: -3px -3px 7px rgb(255, 5, 234),
+      3px 3px 5px rgba(94, 104, 121, 0.288), inset 0 0 0.5em 0 #ae6599,
+      0 0 0.5em 0 #ae6599;
   }
 }
 
@@ -29,8 +33,8 @@ $font-color: white;
   height: 50px;
   background: transparent;
   margin: 30px auto 0 auto;
-  border: solid 2px #424242;
-  border-top: solid 2px #1c89ff;
+  border: solid 2px $background-color;
+  border-top: solid 2px $primery-color;
   border-radius: 50%;
   opacity: 0;
 }
@@ -49,7 +53,7 @@ $font-color: white;
     display: block;
     width: 10px;
     height: 2px;
-    background-color: #fff;
+    background-color: $check-green;
     transform: rotate(45deg);
   }
 
@@ -57,14 +61,14 @@ $font-color: white;
     display: block;
     width: 20px;
     height: 2px;
-    background-color: #fff;
+    background-color: $check-green;
     transform: rotate(-45deg) translate3d(14px, -4px, 0);
     transform-origin: 100%;
   }
 }
 
 .loader.active {
-  animation: loading 2s ease-in-out;
+  animation: loading 3s ease-in-out;
   animation-fill-mode: forwards;
 }
 
@@ -73,6 +77,7 @@ $font-color: white;
   transform: translate3d(-4px, 4px, 0);
   transition: all 0.5s cubic-bezier(0.49, 1.74, 0.38, 1.74);
   transition-delay: 0.2s;
+  background: transparent;
 }
 
 @keyframes loading {
@@ -83,11 +88,11 @@ $font-color: white;
   85% {
     opacity: 1;
     transform: rotate(1080deg);
-    border-color: #262626;
+    border-color: transparent;
   }
   100% {
     opacity: 1;
     transform: rotate(1080deg);
-    border-color: #1c89ff;
+    border-color: $check-green;
   }
 }
