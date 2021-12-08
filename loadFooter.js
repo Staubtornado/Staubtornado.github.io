@@ -10,7 +10,7 @@ document.write(`
 
   <ul class="bottom_links">
       <li><a href="/content/legal/imprint.html">Impressum</a></li>
-      <li><a href="/content/legal/datenschutzerklaerung.html">Datenschutzerklärung</a></li>
+      <li><a href="/content/legal/data.html">Datenschutzerklärung</a></li>
       <li><a href="">AGB</a></li> <!-- Depreciated -->
   </ul>
 
