@@ -9,8 +9,8 @@ document.write(`
 </ul>  
 
   <ul class="bottom_links">
-      <li><a href="https://staubtornado.github.io/kotmasters/content/legal/imprint.html">Impressum</a></li>
-      <li><a href="https://staubtornado.github.io/kotmasters/content/legal/datenschutzerklaerung.html">Datenschutzerklärung</a></li>
+      <li><a href="/content/legal/imprint.html">Impressum</a></li>
+      <li><a href="/content/legal/datenschutzerklaerung.html">Datenschutzerklärung</a></li>
       <li><a href="">AGB</a></li> <!-- Depreciated -->
   </ul>
 
