@@ -1,0 +1,36 @@
+h1 {
+  font-family: "Signika Negative";
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 40px;
+  height: 75px;
+  color: white;
+  padding-top: 15px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+input {
+  font-size: 14px;
+  font-family: "Signika Negative";
+  color: white;
+  outline: none;
+  border: none;
+  width: 45%;
+  padding-left: 15px;
+  margin-bottom: 14px;
+  height: 44px;
+}
+
+textarea {
+  font-size: 14px;
+  font-family: "Signika Negative";
+  color: white;
+  outline: none;
+  border: none;
+  width: 45%;
+  padding: 15px;
+  height: 218px;
+  margin-bottom: 14px;
+}
+/*# sourceMappingURL=contact.css.map */
