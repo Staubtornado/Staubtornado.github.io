@@ -265,7 +265,17 @@ footer{
     transform: translate(-220px, 180px);
     height: 70px;
     
-
+#bgi_bot {
+    transform: translate(10%);
+    margin-right: 50%;
+  }
+  #music_bot {
+    margin-top: 200%;
+    margin-right: 85%;
+  }
+  .description {
+    transform: translate(15%, 40%);
+  }
   }
 }
 .bottom_links{
