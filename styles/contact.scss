@@ -12,13 +12,22 @@ h1 {
   text-align: center;
 }
 
+fieldset{
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20%;
+  margin-left: 20%;
+  border-color: #5d5d5d;
+}
+
 input {
   font-size: 14px;
   font-family: "Signika Negative";
   color: $font-color;
   outline: none;
   border: none;
-  width: 45%;
+  width: 100%;
   padding-left: 15px;
   margin-bottom: 14px;
   height: 44px;
@@ -30,7 +39,7 @@ textarea {
   color: $font-color;
   outline: none;
   border: none;
-  width: 45%;
+  width: 100%;
   padding: 15px;
   height: 218px;
   margin-bottom: 14px;

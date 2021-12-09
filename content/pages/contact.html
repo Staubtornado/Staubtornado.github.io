@@ -27,24 +27,32 @@
 
     <h1>Contact us</h1>
 
-    <fieldset>
-      <br />
-      <input name="name" type="text" size="30" placeholder="Name:" />
-      <br />
-      <input name="betreff" type="text" size="30" placeholder="Betreff:" />
-      <br />
-    </fieldset>
+    <form action="">
+      <fieldset>
+        <br />
+        <input required name="name" type="text" size="30" placeholder="Name:" />
+        <br />
+        <input required name="nachname" type="text" size="30" placeholder="Nachname:" />
+        <br />
+        <input required name="betreff" type="text" size="30" placeholder="Betreff:" />
+        <br />
+        <textarea required name="nachricht"cols="40"rows="7"placeholder="Deine Nachricht hier:"></textarea>
+      </fieldset>
 
-    <fieldset>
-      <textarea
-        name="nachricht"
-        cols="40"
-        rows="20"
-        placeholder="Nachricht hier:"
-      ></textarea>
-    </fieldset>
+    </form>
+    
+    <button type="submit" class="button">Send</button>
+    <div class="loader">
+      <div class="check">
+        <span class="check-one"></span>
+        <span class="check-two"></span>
+      </div>
+    </div>
+
+  <!-- </form> -->
 
     <script>
+
       document.addEventListener("DOMContentLoaded", function () {
         var btn = document.querySelector(".button"),
           loader = document.querySelector(".loader"),
@@ -53,22 +61,14 @@
         btn.addEventListener("click", function () {
           loader.classList.add("active");
         });
-
         loader.addEventListener("animationend", function () {
           check.classList.add("active");
         });
       });
+
     </script>
 
-    <button class="button">Send</button>
-    <div class="loader">
-      <div class="check">
-        <span class="check-one"></span>
-        <span class="check-two"></span>
-      </div>
-    </div>
-
-    <a  href="https://github.com/staubtornado/staubtornado.github.io/discussions"></a>
+    <a href="https://github.com/staubtornado/staubtornado.github.io/discussions"></a>
     
   </body>
 
@@ -78,7 +78,7 @@
       <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
       <li><a href="https://github.com/Staubtornado/kotmasters" class="fa fa-github"></a></li>
       <li><a href="https://twitter.com/" class="fa fa-twitter"></a></li>
-      <!--    <li><a href="https://www.reddit.com/" class="fa fa-reddit-alien"></a></li>-->
+      <!--<li><a href="https://www.reddit.com/" class="fa fa-reddit-alien"></a></li>-->
       <li><a href="https://open.spotify.com/playlist/4VZLJoO22qn8WWNhtZ6qra?si=71bfc55cc0ef41aa" class="fa fa-spotify"></a></li>
     </ul>
 
