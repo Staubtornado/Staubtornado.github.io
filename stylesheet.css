@@ -254,7 +254,7 @@ footer{
     margin-right: 10px;
   }
   .fa {
-    flex-direction: row;
+    flex-direction: coloumn;
     margin-top: 10%;
 
     transform: translate(60px, -20px);
