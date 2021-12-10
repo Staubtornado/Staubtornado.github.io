@@ -254,16 +254,16 @@ footer{
     margin-right: 10px;
   }
   .fa {
-    flex-direction: coloumn;
+     flex-direction: column;
     margin-top: 10%;
-
-    transform: translate(60px, -20px);
+    transform: translate(-31%, -20px);
   }
   .nav__links {
     flex-direction:row-reverse;
     font-size: 30px;
     transform: translate(-220px, 180px);
     height: 70px;
+  }
     
 #bgi_bot {
     transform: translate(10%);
