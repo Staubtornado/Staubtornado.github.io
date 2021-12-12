@@ -1,18 +1,21 @@
+@import "default";
+@import "header";
+@import "footer";
+@import "sendButton";
+
 $font-color: white;
 
 h1 {
-  font-family: "Signika Negative";
   text-decoration: none;
   font-weight: 500;
   line-height: 40px;
   height: 75px;
-  color: $font-color;
   padding-top: 15px;
   padding-left: 50px;
   text-align: center;
 }
 
-fieldset{
+fieldset {
   text-align: center;
   align-items: center;
   margin-bottom: 20px;
@@ -23,8 +26,6 @@ fieldset{
 
 input {
   font-size: 14px;
-  font-family: "Signika Negative";
-  color: $font-color;
   outline: none;
   border: none;
   width: 100%;
@@ -35,8 +36,6 @@ input {
 
 textarea {
   font-size: 14px;
-  font-family: "Signika Negative";
-  color: $font-color;
   outline: none;
   border: none;
   width: 100%;

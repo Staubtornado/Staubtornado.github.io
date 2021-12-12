@@ -1,0 +1,264 @@
+@import "default";
+@import "header";
+@import "footer";
+@import "viewProjectButton";
+
+$background-color: transparent;
+$background-hover: #2e32389f;
+
+@media (max-width: 768px) {
+  .short_summary {
+    width: 100%;
+  }
+
+  .short_summary__font {
+    width: auto;
+  }
+
+  .short_summary {
+    flex-direction: column;
+  }
+
+  .short_summary li a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .short_summary li a img {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .short_summary__font {
+    transition: all 0.5s ease 0s;
+    font-size: 17px;
+  }
+
+  .short_summary li img {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    clear: both;
+  }
+
+  .short_summary li {
+    display: inline-block;
+    align-items: center;
+    padding: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #bgi_bot {
+    transform: translate(10%);
+    margin-right: 50%;
+  }
+
+  #music_bot {
+    margin-top: 200%;
+    margin-right: 85%;
+  }
+
+  .description {
+    transform: translate(15%, 40%);
+  }
+}
+
+.description {
+  padding-left: 5%;
+}
+
+.description a {
+  padding-left: 1%;
+}
+
+.short_summary {
+  align-items: center;
+  list-style: none;
+  display: flex;
+}
+
+.short_summary li img {
+  background-color: $background-color;
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+  clear: both;
+}
+
+.short_summary li {
+  align-items: center;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 2%;
+}
+
+.short_summary li:hover {
+  background-color: $background-hover;
+  transition: background-color 200ms linear;
+  border-radius: 2%;
+}
+
+.short_summary li div {
+  background-color: $background-color;
+  display: block;
+}
+
+.short_summary li div div {
+  background-color: $background-color;
+  font-size: small;
+  margin-bottom: 10px;
+  overflow: auto;
+  display: block;
+}
+
+.short_summary li div h6 {
+  background-color: $background-color;
+  font-size: medium;
+  margin-left: 4%;
+  overflow: auto;
+  display: block;
+}
+
+.short_summary li div h3 {
+  background-color: $background-color;
+}
+
+.short_summary li div p {
+  background-color: $background-color;
+  margin-top: 2%;
+  font-size: 19.2px;
+  margin-bottom: 10px;
+  overflow: auto;
+  display: block;
+}
+
+#music_bot {
+  align-items: center;
+  list-style: none;
+  display: flex;
+  transform: translate(45.5%, -102%);
+}
+
+#music_bot li img {
+  background-color: $background-color;
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+  clear: both;
+}
+
+#music_bot li {
+  align-items: center;
+  margin-left: 7%;
+  margin-right: 53%;
+  margin-top: 2%;
+}
+
+#music_bot li:hover {
+  background-color: #2e32389f;
+  transition: background-color 200ms linear;
+  border-radius: 2%;
+}
+
+#music_bot li div {
+  background-color: $background-color;
+  display: block;
+}
+
+#music_bot li div div {
+  background-color: $background-color;
+  font-size: small;
+  margin-bottom: 10px;
+  overflow: auto;
+  display: block;
+}
+
+#music_bot li div h6 {
+  background-color: $background-color;
+  -size: medium;
+  margin-left: 4%;
+  overflow: auto;
+  display: block;
+}
+
+#music_bot li div h3 {
+  background-color: $background-color;
+}
+
+#music_bot li div p {
+  background-color: $background-color;
+  margin-top: 2%;
+  font-size: 19.2px;
+  margin-bottom: 10px;
+  overflow: auto;
+  display: block;
+}
+
+.description {
+  padding-left: 5%;
+}
+
+.description a {
+  padding-left: 1%;
+}
+
+#bgi_bot {
+  align-items: center;
+  list-style: none;
+  display: flex;
+}
+
+#bgi_bot li img {
+  background-color: $background-color;
+  width: 250px;
+  float: left;
+  margin-right: 10px;
+  clear: both;
+}
+
+#bgi_bot li {
+  align-items: center;
+  margin-left: 7%;
+  margin-right: 56%;
+  margin-top: 2%;
+  &hover {
+    background-color: $background-hover;
+    transition: background-color 200ms linear;
+    border-radius: 2%;
+  }
+}
+
+#bgi_bot li div {
+  background-color: $background-color;
+  display: block;
+}
+
+#bgi_bot li div div {
+  background-color: $background-color;
+  font-size: small;
+  margin-bottom: 10px;
+  overflow: auto;
+  display: block;
+}
+
+#bgi_bot li div h6 {
+  background-color: $background-color;
+  font-size: medium;
+  margin-left: 4%;
+  overflow: auto;
+  display: block;
+}
+
+#bgi_bot li div h3 {
+  background-color: $background-color;
+}
+
+#bgi_bot li div p {
+  background-color: $background-color;
+  margin-top: 2%;
+  font-size: 19.2px;
+  margin-bottom: 10px;
+  overflow: auto;
+  display: block;
+}

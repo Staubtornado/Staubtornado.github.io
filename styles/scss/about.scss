@@ -1,5 +1,9 @@
+@import "default";
+@import "header";
+@import "footer";
+@import "slider";
+
 $font-color: white;
-$font-family: "Signika Negative";
 
 .about_h1 {
   margin: 20px;
@@ -10,14 +14,12 @@ $font-family: "Signika Negative";
 
 .vorstellung {
   color: $font-color;
-  font-family: $font-family;
   text-align: center;
   font-size: 19.2px;
 }
 
 .about_h {
   color: $font-color;
-  font-family: "$font-family";
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
@@ -28,7 +30,6 @@ $font-family: "Signika Negative";
 
 .about_p {
   color: $font-color;
-  font-family: "$font-family";
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
