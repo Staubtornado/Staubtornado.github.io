@@ -36,7 +36,7 @@
         <br />
         <input required name="betreff" type="text" size="30" placeholder="Betreff:" />
         <br />
-        <textarea required name="nachricht"cols="40"rows="7"placeholder="Deine Nachricht hier:"></textarea>
+        <textarea required name="nachricht" cols="40" rows="7" placeholder="Deine Nachricht hier:"></textarea>
       </fieldset>
 
     </form>
@@ -54,9 +54,9 @@
     <script>
 
       document.addEventListener("DOMContentLoaded", function () {
-        var btn = document.querySelector(".button"),
-          loader = document.querySelector(".loader"),
-          check = document.querySelector(".check");
+        const btn = document.querySelector(".button"),
+                loader = document.querySelector(".loader"),
+                check = document.querySelector(".check");
 
         btn.addEventListener("click", function () {
           loader.classList.add("active");
