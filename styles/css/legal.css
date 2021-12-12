@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+  font-family: "Signika Negative";
+  color: white;
+}
+
+.legal {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.legal ul {
+  list-style: none;
+}
+
+.legal p {
+  padding-bottom: 10px;
+}
+
+.legal h2 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.legal li {
+  padding-bottom: 10px;
+}
+
+.legal h3 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.legal h1 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=legal.css.map */
