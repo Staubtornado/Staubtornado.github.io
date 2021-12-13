@@ -1,16 +1,20 @@
-<html lang="en">
+<html lang="deu">
+
   <head>
-    <link rel="stylesheet" href="../../styles/css/contact.css" />
     <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
       name="description"
-      content="Welcome to Contact the KOT. Dies ist die offizielle Kotmasters conactpage. Erkunden Sie unsere Location und wie Sie zu Uns finden."
+      content="Offizielle Website von Kotmasters.gov"
     />
-    <title>Contact|Kotmasters</title>
+
+    <title>Contact | Kotmasters</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="shortcut icon" href="/images/icon.ico" />
+    <link rel="stylesheet" href="../../styles/css/contact.css" />
   </head>
-
-<!--  <header>-->
-
-<!--  </header>-->
 
   <body>
     <iframe
@@ -29,15 +33,32 @@
         <br />
         <input required name="name" type="text" size="30" placeholder="Name:" />
         <br />
-        <input required name="nachname" type="text" size="30" placeholder="Nachname:" />
+        <input
+          required
+          name="nachname"
+          type="text"
+          size="30"
+          placeholder="Nachname:"
+        />
         <br />
-        <input required name="betreff" type="text" size="30" placeholder="Betreff:" />
+        <input
+          required
+          name="betreff"
+          type="text"
+          size="30"
+          placeholder="Betreff:"
+        />
         <br />
-        <textarea required name="nachricht" cols="40" rows="7" placeholder="Deine Nachricht hier:"></textarea>
+        <textarea
+          required
+          name="nachricht"
+          cols="40"
+          rows="7"
+          placeholder="Deine Nachricht hier:"
+        ></textarea>
       </fieldset>
-
     </form>
-    
+
     <button type="submit" class="button">Send</button>
     <div class="loader">
       <div class="check">
@@ -46,14 +67,13 @@
       </div>
     </div>
 
-  <!-- </form> -->
+    <!-- </form> -->
 
     <script>
-
       document.addEventListener("DOMContentLoaded", function () {
         const btn = document.querySelector(".button"),
-                loader = document.querySelector(".loader"),
-                check = document.querySelector(".check");
+          loader = document.querySelector(".loader"),
+          check = document.querySelector(".check");
 
         btn.addEventListener("click", function () {
           loader.classList.add("active");
@@ -62,21 +82,36 @@
           check.classList.add("active");
         });
       });
-
     </script>
 
-    <a href="https://github.com/staubtornado/staubtornado.github.io/discussions"></a>
-    
+    <a
+      href="https://github.com/staubtornado/staubtornado.github.io/discussions"
+    ></a>
   </body>
 
   <footer class="footer">
     <ul class="fa">
-      <li><a href="https://www.instagram.com/kotmasters.official/" class="fa fa-instagram"></a></li>
+      <li>
+        <a
+          href="https://www.instagram.com/kotmasters.official/"
+          class="fa fa-instagram"
+        ></a>
+      </li>
       <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
-      <li><a href="https://github.com/Staubtornado/kotmasters" class="fa fa-github"></a></li>
+      <li>
+        <a
+          href="https://github.com/Staubtornado/kotmasters"
+          class="fa fa-github"
+        ></a>
+      </li>
       <li><a href="https://twitter.com/" class="fa fa-twitter"></a></li>
       <!--<li><a href="https://www.reddit.com/" class="fa fa-reddit-alien"></a></li>-->
-      <li><a href="https://open.spotify.com/playlist/4VZLJoO22qn8WWNhtZ6qra?si=71bfc55cc0ef41aa" class="fa fa-spotify"></a></li>
+      <li>
+        <a
+          href="https://open.spotify.com/playlist/4VZLJoO22qn8WWNhtZ6qra?si=71bfc55cc0ef41aa"
+          class="fa fa-spotify"
+        ></a>
+      </li>
     </ul>
 
     <ul class="bottom_links">
@@ -84,6 +119,5 @@
       <li><a href="../legal/data.html">Datenschutzerklärung</a></li>
       <li><a href="../pages/technology.html">Technik</a></li>
     </ul>
-
   </footer>
 </html>
