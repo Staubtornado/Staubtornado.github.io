@@ -228,7 +228,7 @@ footer {
   transition: 0.5;
 }
 
-.viewProjecthover {
+.viewProject:hover {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   background-color: #3f4044;
