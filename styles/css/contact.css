@@ -22,8 +22,8 @@ button {
 }
 
 button:hover {
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -webkit-transition: 1s;
+  transition: 1s;
   -webkit-box-shadow: -3px -3px 7px #ff05ea, 3px 3px 5px rgba(94, 104, 121, 0.288), inset 0 0 0.5em 0 #ae6599, 0 0 0.5em 0 #ae6599;
           box-shadow: -3px -3px 7px #ff05ea, 3px 3px 5px rgba(94, 104, 121, 0.288), inset 0 0 0.5em 0 #ae6599, 0 0 0.5em 0 #ae6599;
 }
