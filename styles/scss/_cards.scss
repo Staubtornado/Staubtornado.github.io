@@ -1,3 +1,6 @@
+$background-card:#3a3e449f;
+$font-color:white;
+
 @media (min-width: 600px) {
   .card {
     flex-direction: row;
@@ -5,7 +8,7 @@
 
   .profile-main {
     text-align: left;
-    margin-left: 2em;
+    // margin-left: 2em;
   }
 
   .profile-name::after {
@@ -18,25 +21,25 @@
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  background: white;
-  color: black;
+  background: $background-card;
+  color: $font-color;
   text-align: center;
   padding: 2em;
 }
 
 .profile-name {
   font-size: 2rem;
-  line-height: 1.1;
   letter-spacing: 1px;
   text-align: center;
-  &:after {
+  background: transparent;
+  &::after {
     text-align: center;
     content: "";
     display: block;
     height: 1px;
     width: 2em;
     background: rgb(31, 197, 202);
-    margin: 1em auto;
+    margin: 10px auto;
     opacity: 0, 35;
   }
 }
@@ -46,19 +49,39 @@
   text-transform: uppercase;
   font-size: 0, 875rem;
   letter-spacing: 3px;
-  color: black;
+  color: $font-color;
   margin-bottom: 2em;
   text-align: center;
+  background: transparent;
+}
+
+.profile-main{
+  background: transparent;
 }
 
 .profile-body {
   font-weight: 300;
   margin-bottom: 0;
+  background: transparent;
+}
+
+.profile-sidebar{
+  background: transparent;
+  &::after {
+    text-align: center;
+    content: "";
+    display: block;
+    height: 1px;
+    width: 1em;
+    background: rgb(31, 197, 202);
+    margin: 10px auto;
+    opacity: 0, 35;
+  }
 }
 
 .profile-image {
   border-radius: 50%;
-  border: 4px solid black;
+  border: 4px solid $font-color;
 }
 
 .social-list {
@@ -70,13 +93,23 @@
   width: 150px;
   margin: 0 auto;
   margin-top: 7px;
+  background: transparent;
 }
 
 .social-link {
-  color: black;
+  color: $font-color;
   opacity: 0, 5;
+  background-color: transparent;
   &:hover,
   &:focus {
     opacity: 1;
   }
+}
+
+i{
+  background: transparent;
+}
+
+li{
+  background: transparent;
 }
