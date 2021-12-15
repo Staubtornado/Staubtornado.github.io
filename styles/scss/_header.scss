@@ -39,14 +39,13 @@ header {
 .logo__font {
   padding: 5px;
   border-radius: 5px;
-
   font-size: 40px;
   padding-left: 10px;
-}
-.logo__font:hover {
-  opacity: 100;
-  transition: all 0.3s ease 0s;
-  box-shadow: -3px -3px 6px $primary-color, 3px 3px 6px $secondary-color;
+    &:hover {
+    opacity: 100;
+    transition: all 0.3s ease 0s;
+    box-shadow: -3px -3px 6px $primary-color, 3px 3px 6px $secondary-color;
+  }
 }
 
 .nav__links {
@@ -62,9 +61,9 @@ header {
   transition: all 0.3s ease 0s;
   font-size: 19.2px;
   padding: 5px;
-}
-.nav__links li a:hover {
-  color: $primary-color;
-  border-radius: 5px;
-  box-shadow: -3px -3px 6px $primary-color, 3px 3px 6px $secondary-color;
+&:hover {
+    color: $primary-color;
+    border-radius: 5px;
+    box-shadow: -3px -3px 6px $primary-color, 3px 3px 6px $secondary-color;
+  }
 }
