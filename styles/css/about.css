@@ -7,7 +7,6 @@
   background-color: #24252a;
   font-family: "Signika Negative";
   color: white;
-  text-decoration: none;
 }
 
 button {
@@ -22,8 +21,8 @@ button {
 }
 
 button:hover {
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
   -webkit-box-shadow: -3px -3px 7px #ff05ea, 3px 3px 5px rgba(94, 104, 121, 0.288), inset 0 0 0.5em 0 #ae6599, 0 0 0.5em 0 #ae6599;
           box-shadow: -3px -3px 7px #ff05ea, 3px 3px 5px rgba(94, 104, 121, 0.288), inset 0 0 0.5em 0 #ae6599, 0 0 0.5em 0 #ae6599;
 }
@@ -113,7 +112,6 @@ header {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   font-size: 19.2px;
-  padding: 5px;
 }
 
 .nav__links li a:hover {
@@ -209,10 +207,9 @@ footer {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   font-size: 19.2px;
-  padding: 5px;
 }
 
-.bottom_links li a:hover {
+.bottom_links li ahover {
   color: #05ffff;
   border-radius: 5px;
   -webkit-box-shadow: -3px -3px 6px #05ffff, 3px 3px 6px black;
@@ -362,7 +359,6 @@ footer {
   }
   .profile-main {
     text-align: left;
-    margin-left: 2em;
   }
   .profile-name::after {
     margin-left: 0;
@@ -379,27 +375,27 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: white;
-  color: black;
+  background: #3a3e449f;
+  color: white;
   text-align: center;
   padding: 2em;
 }
 
 .profile-name {
   font-size: 2rem;
-  line-height: 1.1;
   letter-spacing: 1px;
   text-align: center;
+  background: transparent;
 }
 
-.profile-name:after {
+.profile-name::after {
   text-align: center;
   content: "";
   display: block;
   height: 1px;
   width: 2em;
   background: #1fc5ca;
-  margin: 1em auto;
+  margin: 10px auto;
   opacity: 0, 35;
 }
 
@@ -408,19 +404,40 @@ footer {
   text-transform: uppercase;
   font-size: 0, 875rem;
   letter-spacing: 3px;
-  color: black;
+  color: white;
   margin-bottom: 2em;
   text-align: center;
+  background: transparent;
+}
+
+.profile-main {
+  background: transparent;
 }
 
 .profile-body {
   font-weight: 300;
   margin-bottom: 0;
+  background: transparent;
+}
+
+.profile-sidebar {
+  background: transparent;
+}
+
+.profile-sidebar::after {
+  text-align: center;
+  content: "";
+  display: block;
+  height: 1px;
+  width: 23em;
+  background: #1fc5ca;
+  margin: 10px auto;
+  opacity: 0, 35;
 }
 
 .profile-image {
   border-radius: 50%;
-  border: 4px solid black;
+  border: 4px solid white;
 }
 
 .social-list {
@@ -436,15 +453,25 @@ footer {
   width: 150px;
   margin: 0 auto;
   margin-top: 7px;
+  background: transparent;
 }
 
 .social-link {
-  color: black;
+  color: white;
   opacity: 0, 5;
+  background-color: transparent;
 }
 
 .social-link:hover, .social-link:focus {
   opacity: 1;
+}
+
+i {
+  background: transparent;
+}
+
+li {
+  background: transparent;
 }
 
 .about_h1 {
