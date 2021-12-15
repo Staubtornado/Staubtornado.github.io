@@ -209,9 +209,10 @@ footer {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   font-size: 19.2px;
+  padding: 5px;
 }
 
-.bottom_links li ahover {
+.bottom_links li a:hover {
   color: #05ffff;
   border-radius: 5px;
   -webkit-box-shadow: -3px -3px 6px #05ffff, 3px 3px 6px black;
