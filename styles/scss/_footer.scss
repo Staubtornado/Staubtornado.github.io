@@ -34,9 +34,9 @@ footer {
   transition: all 0.3s ease 0s;
   font-size: 19.2px;
   padding: 5px;
-}
-.bottom_links li a:hover {
+&:hover {
     color: #05ffff;
     border-radius: 5px;
     box-shadow: -3px -3px 6px rgba(5, 255, 255, 1), 3px 3px 6px rgb(0, 0, 0);
+  }
 }
