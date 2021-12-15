@@ -7,6 +7,7 @@
   background-color: #24252a;
   font-family: "Signika Negative";
   color: white;
+  text-decoration: none;
 }
 
 button {
@@ -112,6 +113,7 @@ header {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   font-size: 19.2px;
+  padding: 5px;
 }
 
 .nav__links li a:hover {
@@ -207,9 +209,10 @@ footer {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   font-size: 19.2px;
+  padding: 5px;
 }
 
-.bottom_links li ahover {
+.bottom_links li a:hover {
   color: #05ffff;
   border-radius: 5px;
   -webkit-box-shadow: -3px -3px 6px #05ffff, 3px 3px 6px black;
@@ -429,7 +432,7 @@ footer {
   content: "";
   display: block;
   height: 1px;
-  width: 23em;
+  width: 10em;
   background: #1fc5ca;
   margin: 10px auto;
   opacity: 0, 35;
@@ -530,5 +533,36 @@ li {
   color: white;
   width: 100%;
   padding: 15px;
+}
+
+.card-order {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.card-order-2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1%;
+  margin-bottom: 4%;
 }
 /*# sourceMappingURL=about.css.map */
