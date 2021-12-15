@@ -61,6 +61,7 @@ header {
 .nav__links li a {
   transition: all 0.3s ease 0s;
   font-size: 19.2px;
+  padding: 5px;
 }
 .nav__links li a:hover {
   color: $primary-color;
