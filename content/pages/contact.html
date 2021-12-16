@@ -12,6 +12,7 @@
     <title>Contact | Kotmasters</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="shortcut icon" href="../../images/icon.ico" />
     <link rel="stylesheet" href="../../styles/css/contact.css" />
   </head>
@@ -42,7 +43,7 @@
 
     <form action="">
       <fieldset>
-        <br />
+        <div id=x onclick="javascript:eraseText();"><i class="fas fa-times-circle"></i></div>
         <input required name="name" type="text" size="30" placeholder="Name:" />
         <br />
         <input
@@ -62,6 +63,7 @@
         />
         <br />
         <textarea
+          id="output"
           required
           name="nachricht"
           cols="40"
@@ -69,16 +71,22 @@
           placeholder="Deine Nachricht hier:"
         ></textarea>
       </fieldset>
+
+    <script>
+    function eraseText() {
+        document.getElementById("output").value = "";
+        }
+    </script>
+
     </form>
 
-    <button type="submit" class="button">Send</button>
+    <button type="submit" class="button">Send</button> 
     <div class="loader">
       <div class="check">
         <span class="check-one"></span>
         <span class="check-two"></span>
       </div>
     </div>
-
     <!-- </form> -->
 
     <script>
