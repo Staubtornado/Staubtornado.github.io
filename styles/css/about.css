@@ -5,13 +5,9 @@
   margin: 0;
   padding: 0;
   background-color: #24252a;
-  font-family: "Signika Negative";
+  font-family: "Signika Negative", serif;
   color: white;
   text-decoration: none;
-}
-
-* ::-webkit-scrollbar {
-  display: none;
 }
 
 button {
@@ -90,10 +86,9 @@ header {
 }
 
 .logo__font {
-  padding: 5px;
   border-radius: 5px;
   font-size: 40px;
-  padding-left: 10px;
+  padding: 5px 5px 5px 10px;
 }
 
 .logo__font:hover {
@@ -110,7 +105,7 @@ header {
 
 .nav__links li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 .nav__links li a {
@@ -128,7 +123,7 @@ header {
 }
 
 @media (max-width: 768px) {
-  .fa {
+  .fab {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -139,7 +134,7 @@ header {
   }
 }
 
-.fa {
+.fab {
   padding: 5px;
   margin: 4px;
   font-size: 30px;
@@ -157,12 +152,12 @@ header {
           justify-content: space-evenly;
 }
 
-.fa li a {
+.fab li a {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 
-.fa li a:hover {
+.fab li a:hover {
   color: #05ffff;
   border-radius: 5px;
   -webkit-box-shadow: -3px -3px 6px #05ffff, 3px 3px 6px black;
@@ -173,7 +168,7 @@ header {
   .bottom_links li {
     margin-bottom: 30px;
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0 20px;
   }
 }
 
@@ -197,7 +192,6 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  list-style: none;
   font-size: 30px;
   -webkit-transform: translate(-30px, 0px);
           transform: translate(-30px, 0px);
@@ -206,7 +200,7 @@ footer {
 
 .bottom_links li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 .bottom_links li a {
@@ -224,8 +218,8 @@ footer {
 }
 
 .slider_body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -403,16 +397,15 @@ footer {
   width: 2em;
   background: #1fc5ca;
   margin: 10px auto;
-  opacity: 0, 35;
+  opacity: 0.35;
 }
 
 .profile-position {
-  margin: 0;
   text-transform: uppercase;
-  font-size: 0, 875rem;
+  font-size: 0.875rem;
   letter-spacing: 3px;
   color: white;
-  margin-bottom: 2em;
+  margin: 0 0 2em;
   text-align: center;
   background: transparent;
 }
@@ -440,7 +433,7 @@ footer {
   width: 10em;
   background: #1fc5ca;
   margin: 10px auto;
-  opacity: 0, 35;
+  opacity: 0.35;
 }
 
 .profile-image {
@@ -453,20 +446,17 @@ footer {
   display: -ms-flexbox;
   display: flex;
   list-style: none;
-  margin: 0;
   padding: 0;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 150px;
-  margin: 0 auto;
-  margin-top: 7px;
+  margin: 7px 0 0;
   background: transparent;
 }
 
 .social-link {
   color: white;
-  opacity: 0, 5;
   background-color: transparent;
 }
 
@@ -498,20 +488,14 @@ li {
 .about_h {
   color: white;
   text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 60px;
-  padding-bottom: 10px;
+  padding: 60px 10% 10px;
   font-size: xx-large;
 }
 
 .about_p {
   color: white;
   text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding: 20px 10% 10px;
   font-size: medium;
 }
 
