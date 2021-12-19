@@ -40,25 +40,33 @@
     <form action="">
       <fieldset>
         <div id=x onclick="eraseText();"><i class="fas fa-times-circle"></i></div>
-        <input required name="name" type="text" size="30" placeholder="Name:" />
+        <label>
+          <input required id="first_name_field" name="name" type="text" size="30" placeholder="Name:"/>
+        </label>
+        <br/>
+        <label>
+          <input
+            id="last_name_field"
+            required
+            name="nachname"
+            type="text"
+            size="30"
+            placeholder="Nachname:"
+          />
+        </label>
         <br />
-        <input
-          required
-          name="nachname"
-          type="text"
-          size="30"
-          placeholder="Nachname:"
-        />
+        <label>
+          <input
+            id="reference"
+            required
+            name="betreff"
+            type="text"
+            size="30"
+            placeholder="Betreff:"
+          />
+        </label>
         <br />
-        <input
-          required
-          name="betreff"
-          type="text"
-          size="30"
-          placeholder="Betreff:"
-        />
-        <br />
-        <textarea
+        <label for="output"></label><textarea
           id="output"
           required
           name="nachricht"
@@ -69,9 +77,10 @@
       </fieldset>
 
     <script>
-    function eraseText() {
-        document.getElementById("output").value = "";
-        }
+      const ids = ['first_name_field', 'last_name_field', 'reference', 'output'];
+      function eraseText() {
+        ids.forEach(id => document.getElementById(id).value = "");
+      }
     </script>
 
     </form>
