@@ -22,20 +22,14 @@ $font-color: white;
 .about_h {
   color: $font-color;
   text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 60px;
-  padding-bottom: 10px;
+  padding: 60px 10% 10px;
   font-size: xx-large;
 }
 
 .about_p {
   color: $font-color;
   text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding: 20px 10% 10px;
   font-size: medium;
 }
 

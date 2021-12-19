@@ -1,14 +1,14 @@
 $primary-color: #05ffff;
 
 @media (max-width: 768px) {
-  .fa {
+  .fab {
     flex-direction: column;
     margin-top: 10%;
     transform: translate(-31%, -20px);
   }
 }
 
-.fa {
+.fab {
   padding: 5px;
   margin: 4px;
   font-size: 30px;
@@ -20,7 +20,7 @@ $primary-color: #05ffff;
   justify-content: space-evenly;
 }
 
-.fa li a {
+.fab li a {
   transition: all 0.3s ease 0s;
   &:hover {
     color: $primary-color;

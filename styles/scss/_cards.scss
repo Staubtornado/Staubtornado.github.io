@@ -40,17 +40,16 @@ $font-color:white;
     width: 2em;
     background: rgb(31, 197, 202);
     margin: 10px auto;
-    opacity: 0, 35;
+    opacity: 0.35;
   }
 }
 
 .profile-position {
-  margin: 0;
   text-transform: uppercase;
-  font-size: 0, 875rem;
+  font-size: 0.875rem;
   letter-spacing: 3px;
   color: $font-color;
-  margin-bottom: 2em;
+  margin: 0 0 2em;
   text-align: center;
   background: transparent;
 }
@@ -76,7 +75,7 @@ $font-color:white;
     width: 10em;
     background: rgb(31, 197, 202);
     margin: 10px auto;
-    opacity: 0, 35;
+    opacity: 0.35;
   }
 }
 
@@ -88,18 +87,15 @@ $font-color:white;
 .social-list {
   display: flex;
   list-style: none;
-  margin: 0;
   padding: 0;
   justify-content: space-between;
   width: 150px;
-  margin: 0 auto;
-  margin-top: 7px;
+  margin: 7px 0 0;
   background: transparent;
 }
 
 .social-link {
   color: $font-color;
-  opacity: 0, 5;
   background-color: transparent;
   &:hover,
   &:focus {
