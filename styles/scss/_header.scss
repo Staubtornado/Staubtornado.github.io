@@ -37,11 +37,11 @@ header {
 }
 
 .logo__font {
-  padding: 5px;
   border-radius: 5px;
   font-size: 40px;
-  padding-left: 10px;
-    &:hover {
+  padding: 5px 5px 5px 10px;
+
+  &:hover {
     opacity: 100;
     transition: all 0.3s ease 0s;
     box-shadow: -3px -3px 6px $primary-color, 3px 3px 6px $secondary-color;
@@ -54,7 +54,7 @@ header {
 
 .nav__links li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 .nav__links li a {
