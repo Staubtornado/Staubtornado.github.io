@@ -42,4 +42,15 @@ textarea {
   padding: 15px;
   height: 218px;
   margin-bottom: 14px;
+  resize: none;
+}
+
+#x{
+  width: 16px;
+  height: 16px;
+  margin-left: 98.5%;
+  margin-top: 0.1%;
+  &:hover{
+    cursor: pointer;
+  }
 }
