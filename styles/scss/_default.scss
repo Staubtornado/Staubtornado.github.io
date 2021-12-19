@@ -8,4 +8,7 @@
   font-family: "Signika Negative";
   color: white;
   text-decoration: none;
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
