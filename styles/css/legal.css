@@ -10,6 +10,10 @@
   text-decoration: none;
 }
 
+* ::-webkit-scrollbar {
+  display: none;
+}
+
 button {
   padding: 9px 25px;
   background-color: #b00b69;
