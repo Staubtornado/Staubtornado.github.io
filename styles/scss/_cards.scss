@@ -97,10 +97,6 @@ $font-color:white;
 .social-link {
   color: $font-color;
   background-color: transparent;
-  &:hover,
-  &:focus {
-    opacity: 1;
-  }
 }
 
 i{

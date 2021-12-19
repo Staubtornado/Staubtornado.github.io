@@ -460,10 +460,6 @@ footer {
   background-color: transparent;
 }
 
-.social-link:hover, .social-link:focus {
-  opacity: 1;
-}
-
 i {
   background: transparent;
 }
