@@ -436,6 +436,11 @@ footer {
   opacity: 0.35;
 }
 
+.img_test {
+  height: 20px;
+  width: 20px;
+}
+
 .profile-image {
   border-radius: 50%;
   border: 4px solid white;
@@ -447,12 +452,12 @@ footer {
   display: flex;
   list-style: none;
   padding: 0;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   width: 150px;
   margin: 7px 0 0;
   background: transparent;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .social-link {
@@ -466,6 +471,14 @@ i {
 
 li {
   background: transparent;
+}
+
+.order-test {
+  background: transparent;
+  width: 100%;
+  height: 60px;
+  padding-top: 8px;
+  padding-left: 33.5%;
 }
 
 .about_h1 {
