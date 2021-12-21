@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   background-color: #24252a;
-  font-family: "Signika Negative";
+  font-family: "Signika Negative", serif;
   color: white;
   text-decoration: none;
 }
@@ -86,10 +86,9 @@ header {
 }
 
 .logo__font {
-  padding: 5px;
   border-radius: 5px;
   font-size: 40px;
-  padding-left: 10px;
+  padding: 5px 5px 5px 10px;
 }
 
 .logo__font:hover {
@@ -106,13 +105,14 @@ header {
 
 .nav__links li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 .nav__links li a {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   font-size: 19.2px;
+  padding: 5px;
 }
 
 .nav__links li a:hover {
@@ -123,7 +123,7 @@ header {
 }
 
 @media (max-width: 768px) {
-  .fa {
+  .fab {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -134,7 +134,7 @@ header {
   }
 }
 
-.fa {
+.fab {
   padding: 5px;
   margin: 4px;
   font-size: 30px;
@@ -152,12 +152,12 @@ header {
           justify-content: space-evenly;
 }
 
-.fa li a {
+.fab li a {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 
-.fa li ahover {
+.fab li a:hover {
   color: #05ffff;
   border-radius: 5px;
   -webkit-box-shadow: -3px -3px 6px #05ffff, 3px 3px 6px black;
@@ -168,7 +168,7 @@ header {
   .bottom_links li {
     margin-bottom: 30px;
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0 20px;
   }
 }
 
@@ -192,7 +192,6 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  list-style: none;
   font-size: 30px;
   -webkit-transform: translate(-30px, 0px);
           transform: translate(-30px, 0px);
@@ -201,16 +200,17 @@ footer {
 
 .bottom_links li {
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 .bottom_links li a {
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   font-size: 19.2px;
+  padding: 5px;
 }
 
-.bottom_links li ahover {
+.bottom_links li a:hover {
   color: #05ffff;
   border-radius: 5px;
   -webkit-box-shadow: -3px -3px 6px #05ffff, 3px 3px 6px black;
@@ -222,16 +222,14 @@ footer {
   padding: 9px 25px;
   background-color: #4a4b50;
   border-radius: 5px;
-  -webkit-transition: 0.5;
-  transition: 0.5s;
 }
 
-.viewProjecthover {
+.viewProject:hover {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   background-color: #3f4044;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, #333333 0px 0px 0px 3px, rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, #333333 0px 0px 0px 3px, rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px, #333333 0 0 0 3px, rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px, #333333 0 0 0 3px, rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 @media (max-width: 768px) {
@@ -417,7 +415,6 @@ footer {
 
 #music_bot li div h6 {
   background-color: transparent;
-  -size: medium;
   margin-left: 4%;
   overflow: auto;
   display: block;
@@ -511,4 +508,4 @@ footer {
   overflow: auto;
   display: block;
 }
-/*# sourceMappingURL=projects.css.map */
+/*# sourceMappingURL=projects-page.css.map */

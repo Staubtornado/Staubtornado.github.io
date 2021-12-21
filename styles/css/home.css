@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+  font-family: "Signika Negative", serif;
+  color: white;
+  text-decoration: none;
+}
+
 button {
   padding: 9px 25px;
   background-color: #b00b69;
@@ -219,17 +230,6 @@ footer {
   background-color: #3f4044;
   -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px, #333333 0 0 0 3px, rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
           box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px, #333333 0 0 0 3px, rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background-color: #24252a;
-  font-family: "Signika Negative", serif;
-  color: white;
-  text-decoration: none;
 }
 
 @media (max-width: 768px) {
